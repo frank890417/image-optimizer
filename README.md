@@ -16,10 +16,10 @@ Clone or download the repository
 Navigate to the project folder in your terminal
 Run `npm install` to install the required libraries
 Place the images you want to resize in the `input` folder
-Run `node index.js` to start the script
+Run `node convert.js` to start the script
 The resized images will be saved in the `output` folder
 ## Configuration
-You can configure the sizes, scales, and formats by modifying the `sizes`, `scales`, and `formats` arrays in the `index.js` file.
+You can configure the sizes, scales, and formats by modifying the `sizes`, `scales`, and `formats` arrays in the `convert.js` file.
 
 ## Note
 The script assumes that all the images in the `input` folder are in a supported format by the `sharp` library. If an image is in an unsupported format, the script will log an error and skip the image.
