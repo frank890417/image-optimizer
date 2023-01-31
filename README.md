@@ -23,3 +23,6 @@ You can configure the sizes, scales, and formats by modifying the `sizes`, `scal
 
 ## Note
 The script assumes that all the images in the `input` folder are in a supported format by the `sharp` library. If an image is in an unsupported format, the script will log an error and skip the image.
+
+## This repo is made with 10 steps of prompts with ChatGPT
+![](prompts.jpeg)
