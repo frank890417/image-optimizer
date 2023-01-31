@@ -1,5 +1,6 @@
 # Image Resizer
 This is a Node.js script that resizes images to different sizes and scales and saves them in different formats. The script uses the sharp library to handle the image manipulation.
+![](demo.png)
 
 ## Features
 Resizes images to specified sizes and scales
