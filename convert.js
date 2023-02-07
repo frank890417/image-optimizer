@@ -9,7 +9,7 @@ const outputDirectory = './output';
 
 // Configuration object with image size, scale, and format options
 const config = {
-    sizes: [], // array of image widths to resize to
+    sizes: [1024, 2048, 4096], // array of image widths to resize to
     scales: [1, 0.5, 0.25], // array of scales to resize the image by
     formats: ['png', 'jpg', 'webp'] // array of image formats to save the resized images as
 };
